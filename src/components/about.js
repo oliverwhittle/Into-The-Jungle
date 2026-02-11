@@ -21,7 +21,7 @@ function About() {
           </p>
         </div>
         <img
-          src="../images/Group Photo.jpeg"
+          src={process.env.PUBLIC_URL + "/images/Group Photo.jpeg"}
           alt="About Us"
           className={styles.image}
         />

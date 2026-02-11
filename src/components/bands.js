@@ -15,7 +15,7 @@ function BandSwiper() {
       <Swiper navigation={true} modules={[Navigation]} className={styles.swiper}>
         <SwiperSlide>
             <div className={styles.slide}>
-                <img src="../images/Lyme.jpeg" alt="Lyme" className={styles.bandImage} />
+                <img src={process.env.PUBLIC_URL + "/images/Lyme.jpeg"} alt="Lyme" className={styles.bandImage} />
                 <div className={styles.bandInfo}>
                     <h2 className={styles.bandName}>Lyme</h2>
                     <p className={styles.bandDescription}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur commodo. Sed at ligula a enim efficitur tincidunt.</p>
@@ -24,7 +24,7 @@ function BandSwiper() {
         </SwiperSlide>
         <SwiperSlide>
             <div className={styles.slide}>
-                <img src="../images/Cangrejo.jpeg" alt="Cangrejo" className={styles.bandImage} />
+                <img src={process.env.PUBLIC_URL + "/images/Cangrejo.jpeg"} alt="Cangrejo" className={styles.bandImage} />
                 <div className={styles.bandInfo}>
                     <h2 className={styles.bandName}>Cangrejo</h2>
                     <p className={styles.bandDescription}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur commodo. Sed at ligula a enim efficitur tincidunt.</p>
