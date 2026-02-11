@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+.container {
+    padding: 8rem 10rem 2rem 10rem;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    font-family: 'Boldonse', sans-serif;
+}
+
+/* =========================
+   Large Tablets (≤1200px)
+========================= */
+@media (max-width: 1200px) {
+  .container {
+    padding: 7rem 6rem 2rem 6rem;
+  }
+
+  .title {
+    font-size: 2.6rem;
+  }
+}
+
+
+/* =========================
+   Tablets (≤992px)
+========================= */
+@media (max-width: 992px) {
+  .container {
+    padding: 6rem 4rem 2rem 4rem;
+  }
+
+  .title {
+    font-size: 2.3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+
+/* =========================
+   Mobile (≤768px)
+========================= */
+@media (max-width: 768px) {
+  .container {
+    padding: 5rem 2rem 2rem 2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+
+/* =========================
+   Small Mobile (≤480px)
+========================= */
+@media (max-width: 480px) {
+  .container {
+    padding: 4rem 1.5rem 2rem 1.5rem;
+  }
+
+  .title {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+}
