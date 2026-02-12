@@ -1,24 +1,7 @@
-.overlayWrapper {
-  position: fixed;
-  top: 56.8%;
-  left: 50%;   
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  pointer-events: none;
-  z-index: 999;
-  transform: translate(-50%, -50%);
-}
-
-.overlay {
-  position: absolute;   
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%) scaleY(0.5); 
-  filter: brightness(0);
-  transform-origin: center center;         
-  transition: transform 0.3s ease;    
-  width: auto;   
-  height: auto; 
-  max-width: 120%; 
+.divider {
+  border: none;
+  height: 8px;
+  width: 80%;
+  background-color: white;
+  margin: 40px auto;
 }

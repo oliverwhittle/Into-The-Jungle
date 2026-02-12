@@ -7,7 +7,7 @@ import Bands from "../components/bands";
 import Tickets from "../components/tickets";
 import Footer from "../components/footer";
 
-//import styles from "../styles/main.module.css";
+import styles from "../styles/main.module.css";
 
 function Main() {
 
@@ -20,18 +20,15 @@ function Main() {
 
   return (
     <>
-      {/* <div className={styles.overlayWrapper}>
-        <img
-          src="/images/Jungle-Border.png"
-          alt="Overlay"
-          className={styles.overlay}
-        />
-      </div> */}
       <Hero />
       <Tickets />
+      <hr className={styles.divider} />
       <About />
+      <hr className={styles.divider} />
       <Bands />
+      <hr className={styles.divider} />
       <WhosWho />
+      <hr className={styles.divider} />
       <Gallery images={slides} />
       <Footer />
     </>
