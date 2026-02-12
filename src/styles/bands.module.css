@@ -161,6 +161,7 @@
     width: 69vw;
     padding: 1rem;
     border-radius: 1rem;
+    aspect-ratio: auto;
   }
 
   .container { padding: 4rem 1rem 0rem 1rem; }
@@ -172,6 +173,10 @@
 
   .bandImage {
     max-width: 100%;
+  }
+
+  .bandInfo {
+    flex: unset;
   }
 
   .bandName {

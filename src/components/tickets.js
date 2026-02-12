@@ -7,7 +7,8 @@ function Tickets() {
             <div className={styles.tickets}>
                 <h2 className={styles.title}>Buy tickets now!</h2>
                 <p className={styles.description}>
-                    Tickets are now available for Into The Jungle 2026!
+                    Tickets are now available for Into The Jungle 2026! <br></br>
+                    22nd March 2026, 5pm - 10pm <br></br> @ Canvas, Bournemouth
                 </p>
                 <a href="https://www.eventbrite.com/e/into-the-jungle-tickets-1981935017991?aff=oddtdtcreator" className={styles.link} target="_blank" rel="noopener noreferrer">
                     Buy Tickets

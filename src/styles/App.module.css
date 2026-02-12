@@ -124,12 +124,11 @@ main {
 
   .navBar ul {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     text-align: center;
   }
   
-   /* Make last item full width if odd number */
   .navBar li:last-child:nth-child(odd) {
     grid-column: 1 / -1;
   }
@@ -139,7 +138,7 @@ main {
   }
 
   .navBar a::after {
-    height: 4px; /* slightly thinner underline */
+    height: 4px;
   }
 
   main {
