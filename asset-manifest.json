@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Into-The-Jungle/static/css/main.7714f51a.css",
-    "main.js": "/Into-The-Jungle/static/js/main.f4af92f5.js",
+    "main.css": "/Into-The-Jungle/static/css/main.63e9329c.css",
+    "main.js": "/Into-The-Jungle/static/js/main.99f7962c.js",
     "static/media/background.jpg": "/Into-The-Jungle/static/media/background.585e2c84b889f503e174.jpg",
     "index.html": "/Into-The-Jungle/index.html",
-    "main.7714f51a.css.map": "/Into-The-Jungle/static/css/main.7714f51a.css.map",
-    "main.f4af92f5.js.map": "/Into-The-Jungle/static/js/main.f4af92f5.js.map"
+    "main.63e9329c.css.map": "/Into-The-Jungle/static/css/main.63e9329c.css.map",
+    "main.99f7962c.js.map": "/Into-The-Jungle/static/js/main.99f7962c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7714f51a.css",
-    "static/js/main.f4af92f5.js"
+    "static/css/main.63e9329c.css",
+    "static/js/main.99f7962c.js"
   ]
 }
