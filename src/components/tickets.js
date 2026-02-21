@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../components/button.js";
 import styles from "../styles/tickets.module.css";
 
 function Tickets() {
@@ -10,9 +11,7 @@ function Tickets() {
                     Tickets are now available for Into The Jungle 2026! <br></br>
                     22nd March 2026, 5pm - 10pm <br></br> @ Canvas, Bournemouth
                 </p>
-                <a href="https://www.eventbrite.com/e/into-the-jungle-tickets-1981935017991?aff=oddtdtcreator" className={styles.link} target="_blank" rel="noopener noreferrer">
-                    Buy Tickets
-                </a>
+                <Button />
             </div>
         </section>
     );

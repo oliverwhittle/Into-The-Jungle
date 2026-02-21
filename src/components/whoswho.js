@@ -11,12 +11,12 @@ function WhosWho() {
             <div className={styles.card}>
               <img src={process.env.PUBLIC_URL + "/images/George.jpeg"} alt="George" />
               <h2 className={styles.name}>George</h2>
-              <p className={styles.description}>Organiser + Host</p>
+              <p className={styles.description}>Event Organiser + Host</p>
             </div>
             <div className={styles.card}>
               <img src={process.env.PUBLIC_URL + "/images/Samuel.jpeg"} alt="Sam" />
               <h2 className={styles.name}>Sam</h2>
-              <p className={styles.description}>Organiser + Host</p>
+              <p className={styles.description}>Event Organiser + Host</p>
             </div>
               <div className={styles.card}>
               <img src={process.env.PUBLIC_URL + "/images/Celi.jpeg"} alt="Celi" />

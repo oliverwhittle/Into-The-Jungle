@@ -3,16 +3,17 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
-import styles from "../styles/bands.module.css";
+import styles from "../styles/bands26.module.css";
 
-import { Navigation } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 function BandSwiper() {
   return (
-    <section id="bands" className={styles.container}>
+    <section id="bands26" className={styles.container}>
         <h1 className={styles.title}>2026 Bands</h1>
-      <Swiper navigation={true} modules={[Navigation]} className={styles.swiper}>
+      <Swiper navigation={true} pagination={true} autoplay={{ delay: 5000 }} modules={[Navigation, Pagination, Autoplay]} loop={true} className={styles.swiper}>
         <SwiperSlide>
             <div className={styles.slide}>
                 <img src={process.env.PUBLIC_URL + "/images/Static.jpeg"} alt="Static" className={styles.bandImage} />
@@ -42,9 +43,9 @@ function BandSwiper() {
         </SwiperSlide>
         <SwiperSlide>
             <div className={styles.slide}>
-                <img src={process.env.PUBLIC_URL + "/images/KoiSauce.jpeg"} alt="Koi Sauce" className={styles.bandImage} />
+                <img src={process.env.PUBLIC_URL + "/images/KoiSource.jpeg"} alt="Koi Source" className={styles.bandImage} />
                 <div className={styles.bandInfo}>
-                    <h2 className={styles.bandName}>Koi Sauce</h2>
+                    <h2 className={styles.bandName}>Koi Source</h2>
                     <p className={styles.bandDescription}></p>
                 </div>
             </div>

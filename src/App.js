@@ -13,9 +13,10 @@ function App() {
         <ul>
           <li><Link to="/#about">About</Link></li>
           <li><Link to="/#tickets">Tickets</Link></li>
-          <li><Link to="/#bands">Bands</Link></li>
+          <li><Link to="/#bands26">2026 Bands</Link></li>
           <li><Link to="/#gallery">Gallery</Link></li>
           <li><Link to="/#team">Meet the Team</Link></li>
+          <li><Link to="/#bands25">2025 Bands</Link></li>
         </ul>
       </nav>
 

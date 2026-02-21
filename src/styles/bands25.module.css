@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 2rem 1rem;
+}
+
+.slide {
+  width: 34vw;
+  aspect-ratio: 16 / 9;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding: 3%;
+  border-radius: 2rem;
+  background-color: rgba(255, 255, 255, 0.5);
+
+  box-sizing: border-box;
+  margin: 0 auto;
+  transition: 0.3s ease;
+  gap: 2rem;
+}
+
+.container {
+  padding: 8rem 1rem;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: white;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-family: 'Boldonse', sans-serif;
+}
+
+.bandImage {
+  width: 100%;
+  height: auto;
+  
+  max-width: 300px;
+  max-height: 300px;
+
+  object-fit: contain;
+  border-radius: 1rem;
+}
+
+.bandInfo {
+  flex: 1 1 250px;
+  max-width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.bandName {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  font-family: 'Boldonse', sans-serif;
+}
+
+.bandDescription {
+  margin-top: 1rem;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* =========================
+   Large Tablets (≤1200px)
+========================= */
+@media (max-width: 1200px) {
+  .slide {
+    width: 75vw;
+    gap: 1.5rem;
+  }
+
+  .bandName {
+    font-size: 1.8rem;
+  }
+
+  .bandDescription {
+    font-size: 1.3rem;
+  }
+}
+
+
+/* =========================
+   Tablets (≤1024px)
+========================= */
+@media (max-width: 1024px) {
+  .slide {
+    width: 85vw;
+    padding: 2rem 1.5rem;
+    border-radius: 1.5rem;
+  }
+
+  .bandImage,
+  .bandInfo {
+    max-width: 48%;
+  }
+}
+
+
+/* =========================
+   Mobile (≤768px)
+========================= */
+@media (max-width: 768px) {
+
+  .slide {
+    width: 90vw;
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+    border-radius: 1.2rem;
+    gap: 1.5rem;
+  }
+
+  .bandImage,
+  .bandInfo {
+    max-width: 100%;
+  }
+
+  .bandInfo {
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+
+  .bandName {
+    font-size: 1.5rem;
+  }
+
+  .bandDescription {
+    font-size: 1.1rem;
+  }
+
+  .container {
+    padding: 6rem 1rem 2rem 1rem;
+  }
+}
+
+
+/* =========================
+   Small Mobile (≤480px)
+========================= */
+@media (max-width: 480px) {
+
+  .slide {
+    width: 50vw;
+    padding: 1rem;
+    border-radius: 1rem;
+    aspect-ratio: auto;
+  }
+
+  .container { padding: 4rem 1rem 0rem 1rem; }
+
+  .title {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .bandImage {
+    max-width: 100%;
+  }
+
+  .bandInfo {
+    flex: unset;
+  }
+
+  .bandName {
+    font-size: 1.3rem;
+  }
+
+  .bandDescription {
+    font-size: 1rem;
+  }
+}
